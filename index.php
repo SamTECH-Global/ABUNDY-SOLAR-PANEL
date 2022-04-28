@@ -51,21 +51,21 @@
 
 
 <?php $callclass->_unique_solar_solution_div();?> 
-<br clear="ALL">
+<br clear="all">
 <?php $callclass->_solar_panel();?> 
-<br clear="ALL">
+
 <?php $callclass->_light_up_solar_div();?> 
-<br clear="ALL">
-<br clear="ALL">
+
 <?php $callclass->_smart_solution_div();?> 
-<br clear="ALL">
+
 <?php $callclass->_why_solar_power();?> 
-<br clear="ALL">
+
 <?php $callclass->_average_weight_div();?> 
-<br clear="ALL">
+
 <?php $callclass->_reliability_div();?> 
 <br clear="ALL">
 
+<?php $callclass->_back_2_top_div();?> 
 
 <?php include "footer.php"?>
 </body>

@@ -44,3 +44,22 @@ function _close_menu(){
     $('.ovarlay-div').animate({'margin-left':'-100%'},200);
     $('.sidemenu-div').animate({'margin-left':'-250px'},400);
   }
+
+
+  
+//////////////////////////////////////////////////////////////////////////////////////////////////SCROLL-TO-DIV
+
+function _back_to_top(){
+  event.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+}
+$(window).scroll(function() { 
+  var scrollheight = $(window).scrollTop();
+  if (scrollheight >= 100) {
+        $("#back2Top").fadeIn(300).css("display", "block");
+      }else {
+        $('#back2Top').fadeOut();
+      }
+    });
+    //////////////////////////////////////////////////////////////////////////////////////////////////
